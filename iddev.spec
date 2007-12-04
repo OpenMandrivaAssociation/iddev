@@ -2,7 +2,7 @@
 %define version 1.9
 %define release 1mdk
 
-Summary: Iddev is a library that identifies device contents.
+Summary: Iddev is a library that identifies device contents
 Name: %{name}
 Version: %{version}
 Release: %{release}

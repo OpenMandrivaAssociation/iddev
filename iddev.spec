@@ -1,6 +1,6 @@
 %define name iddev
 %define version 1.9
-%define release 1mdk
+%define release  %mkrel 1
 
 Summary: Iddev is a library that identifies device contents
 Name: %{name}

@@ -8,7 +8,7 @@ Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
 License: GPL
-Group: System
+Group: System/Base
 #Url: 
 
 

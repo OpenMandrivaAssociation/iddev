@@ -10,7 +10,6 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: System
 #Url: 
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 
 %description

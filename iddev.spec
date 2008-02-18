@@ -2,7 +2,7 @@
 %define version 1.9
 %define release  %mkrel 1
 
-Summary: Iddev is a library that identifies device contents
+Summary: Library that identifies device contents
 Name: %{name}
 Version: %{version}
 Release: %{release}

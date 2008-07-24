@@ -1,6 +1,6 @@
 %define name iddev
 %define version 1.9
-%define release  %mkrel 2
+%define release  %mkrel 4
 
 Summary: Library that identifies device contents
 Name: %{name}

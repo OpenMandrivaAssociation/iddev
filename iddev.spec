@@ -41,3 +41,37 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/libiddev.a
 %{_includedir}/iddev.h
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.9-6mdv2011.0
++ Revision: 619600
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.9-5mdv2010.0
++ Revision: 429495
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.9-4mdv2009.0
++ Revision: 247201
+- rebuild
+
+* Mon Feb 18 2008 Thierry Vignaud <tv@mandriva.org> 1.9-2mdv2008.1
++ Revision: 170893
+- rebuild
+- fix "foobar is blabla" summary (=> "blabla") so that it looks nice in rpmdrake
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 1.9-1mdv2008.1
++ Revision: 131677
+- fix group
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- fix summary-ended-with-dot
+- import iddev
+
+
+* Mon Apr 11 2005 Antoine Giniès <aginies@mandriva.com> 1.9-1mdk
+- first release

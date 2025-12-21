@@ -13,6 +13,11 @@ Group: System/Base
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 iddev is a library that identifies device contents.  It will
 tell you what file system (or logical volume manager) has

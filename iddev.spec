@@ -1,6 +1,6 @@
 %define name iddev
 %define version 1.9
-%define release  %mkrel 6
+%define release 7
 
 Summary: Library that identifies device contents
 Name: %{name}
@@ -78,5 +78,5 @@ rm -rf $RPM_BUILD_ROOT
 - import iddev
 
 
-* Mon Apr 11 2005 Antoine Giniès <aginies@mandriva.com> 1.9-1mdk
+* Mon Apr 11 2005 Antoine Giniï¿½s <aginies@mandriva.com> 1.9-1mdk
 - first release
